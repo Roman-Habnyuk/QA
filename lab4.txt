@@ -1,0 +1,23 @@
+Test case ID: TC_Login_01
+
+Test case description:
+To test if the system displays appropriate error message when user tries to login with invalid credentials
+
+Positive/negative:
+Negative
+
+Precondition:
+User is on the login page of the system
+
+Test steps:
+
+    Enter invalid username
+    Enter invalid password
+    Click on the "Login" button
+
+Test data:
+Username: invalidusername
+Password: invalidpassword
+
+Expected result:
+An error message is displayed "Invalid username or password. Please try again."
