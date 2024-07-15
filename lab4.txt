@@ -1,23 +1,41 @@
 Test case ID: TC_Login_01
 
 Test case description:
-To test if the system displays appropriate error message when user tries to login with invalid credentials
+To test if an appropriate error message is displayed when I try to submit assignment which is overdue
 
 Positive/negative:
 Negative
 
 Precondition:
-User is on the login page of the system
+User is signed in to the Moodle learning management system
 
 Test steps:
-
-    Enter invalid username
-    Enter invalid password
-    Click on the "Login" button
+Open task page
 
 Test data:
-Username: invalidusername
-Password: invalidpassword
+none
 
 Expected result:
-An error message is displayed "Invalid username or password. Please try again."
+An error message is displayed "Assignment is overdue by: *time for which the task is overdue*"
+
+
+
+TC_Login_01
+
+Опис тестового випадку:
+Щоб перевірити, чи відображається відповідне повідомлення про помилку, коли я намагаюся надіслати прострочене завдання
+
+Позитивний/негативний:
+Негативний
+
+Передумова:
+Користувач увійшов у систему керування навчанням Moodle
+
+Етапи тестування:
+Відкрити сторінку завдань
+
+Тестові дані:
+немає
+
+Очікуваний результат:
+Відображається повідомлення про помилку «Завдання прострочено на: *час, на який завдання прострочено*»
